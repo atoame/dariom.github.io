@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script>
+    function scrollHobbies(direction) {
+        const container = document.getElementById('hobbyScroll');
+        const scrollAmount = 300;
+
+        container.scrollBy({
+            left: direction * scrollAmount,
+            behavior: 'smooth'
+        });
+    }
+</script>
+
+<div class="content-wrapper">
+<div class="nav">
+    <ul class="navigation">
+        <li>
+            <a href="#biography">Биографија</a>
+        </li>
+        <li>
+            <a href="#education">Образование</a>
+        </li>
+        <li>
+            <a href="#skills">Вештини</a>
+        </li>
+        <li>
+            <a href="#interests">Дизајн</a>
+        </li>
+        <li>
+            <a href="#contact">Контакт</a>
+        </li>
+    </ul>
+</div>
+
+<div class="everything">
+    <div class="bio-cont-cont">
+    <div class="bio-container">
+        <div class="biography" id="biography">
+            <h1>Welcome to my website!</h1>
+        <p>Здраво, јас сум Дарио Миревски и студирам на Факултетот за информатички науки и компјутерско инженерство (ФИНКИ) во Скопје, Република Северна Македонија. Имам 21 година и сум втора година на студии. Потекнувам од еден од најстарите градови на Балканот – Кратово. Иако немам големо искуство во програмирање, постојано се трудам да работам на сопствени проекти. Освен софтверско креирање, ја гледам мојата идна кариера и во правец на визуелен дизајн и фотографија.</p>
+        </div>
+        <div class="imagesofme">
+            <img class="main_image" src="me.jpg" alt="Main Image">
+        </div>
+    </div>
+    </div>
+    <div id="education">
+        <h1>Образование</h1>
+    <div class="education" >
+        <ul>
+            <li>
+                <img class="finki_logo" src="finki_logo.jpg" >
+                <h4 style="text-align: center">ФИНКИ</h4>
+                <p>
+                    Студент сум на ФИНКИ од 2023-та год на насока ПИТ - Додипломски студии по Примена на информациски технологии.
+                </p>
+            </li>
+            <li>
+                <img class="mitko_logo" src="mitkopendzuklinskilogo.jpg" >
+                <h4 style="text-align: center">СОУ„Митко Пенџуклиски“ - Кратово</h4>
+                <p>
+                    Средното Образобание го завршив во Кратово, Средно Општинско Училиште “Митко Пенџуклиски”.
+                </p>
+            </li>
+            <li>
+                <img class="flowers_logo" src="ltw_flowers.png" >
+                <h4 style="text-align: center">LTW ”Flowers” – Курс по англиски јазик</h4>
+                <p>
+                    Имам завршено курс за јазици каде се стекнав со C2 степен на познавање на англиски јазик.
+                </p>
+            </li>
+        </ul>
+
+    </div>
+    </div>
+    <div class="skills" id="skills">
+        <h1>Вештини</h1>
+        <p>
+            Во текот на студиите стекнав знаења од различни области, особено во програмирање и дизајн. Моето идеално работно место би било комбинација од двете. Имам искуство со повеќе програмски јазици, меѓу кои: C++, Java, HTML и CSS. Во слободното време се трудам да ја развијам мојата креативност преку различни видови на дизајн. Денес, се фокусирам на создавањето – преку развивање на софтверски проекти, моден дизајн, графички дизајн, веб-дизајн и фотографија.</p>
+    </div>
+    <div id="interests">
+        <h1>Дизајн</h1>
+    <div class="hobbies-wrapper">
+        <button class="scroll-btn left" onclick="scrollHobbies(-1)">&#10094;</button>
+
+        <div class="hobbies" id="hobbyScroll">
+
+            <img src="1000010857.jpg" class="pics">
+            <img src="1000010863.jpg" class="pics">
+            <img src="1000010868.jpg" class="pics">
+            <img src="1000010872.jpg" class="pics">
+            <img src="1000010860.jpg" class="pics">
+            <img src="1000010859.jpg" class="pics">
+            <img src="1000010865.jpg" class="pics">
+        </div>
+        <button class="scroll-btn right" onclick="scrollHobbies(1)">&#10095;</button>
+    </div>
+
+</div>
+
+</div>
+</div>
+<footer id="contact">
+    <div class="content">
+        <h1>Контакт</h1>
+        <div class="items">
+        <div class="first">
+            <p>Email :<br><br>
+            dmirevski321@gmail.com</p>
+        </div>
+        <div class="second">
+            <p>Phone number :<br><br>
+            071 371 945</p>
+        </div>
+            <div class="third">
+                <ul>
+                    <li><a href="https://www.instagram.com/dario_m4/">Instagram</a><br>
+                        <a href="https://www.instagram.com/dario_m4/" class="instagram-link"></a>
+                    </li>
+                    <li><a href="https://github.com/atoame">Github</a><br>
+                        <a href="https://github.com/atoame" class="instagram-link"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/dario-mirevski-735979370/">LinkedIn</a><br>
+                        <a href="https://www.linkedin.com/in/dario-mirevski-735979370/" class="instagram-link"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

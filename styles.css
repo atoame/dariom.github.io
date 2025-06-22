@@ -1,0 +1,271 @@
+html {
+    width: auto;
+    background-color: #c0bcb9;
+    font-size: 15px;
+    font-family: "Times New Roman";
+}
+body{
+    width: 100%;
+    margin:0;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    background-color: #d7d1cf;
+}
+
+.nav {
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.05);
+    height: 70px;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    background-color: #ece8e6;
+    background-image: url("logos_prev_ui.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 70px auto;
+    padding-top:50px;
+}
+
+.navigation {
+    list-style: none;
+    height: 50px;
+    padding-top: 10px;
+    margin-left: 7%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation > li{
+    background-color: #f6f6f6;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.15);
+    padding: 8px;
+    margin: 3px;
+    width: 15%;
+    float: left;
+    text-align: center;
+}
+
+.everything > div.imagesofme >.main_image {
+    display: block;
+    float: right;
+    clear: both;
+    width: 20%;
+    height: auto;
+    border-radius: 200px;
+    border: #7c60ff 15px solid;
+}
+.biography, .skills, .interests{
+    width: 80%;
+    margin:auto;
+    margin-top:3%;
+    padding: 2%;
+    background-color: #e8e2e2;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.biography{
+    width:60%;
+    margin-left: 7.5%;
+    float:left;
+    padding:4%;
+    background-color: #fff8f8;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.education{
+    margin:auto;
+    padding: 2%;
+    width: 84%;
+    margin-top: 2%;
+    padding: 0;
+}
+#education{
+    margin-top: 3%;
+}
+#education>h1{
+    text-indent: 8%;
+}
+
+.education > ul:nth-child(1){
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content:space-between;
+}
+.education > ul:nth-child(1) > li{
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: #e8e2e2;
+    width:20%;
+    float:left;
+    padding:2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.finki_logo,.mitko_logo,.flowers_logo{
+    display: block;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.pics{
+    width: 200px;
+    height:300px;
+    border-radius: 3%;
+    margin: 1%;
+    zoom: 180%;
+    filter: grayscale(100%);
+
+}
+.interests{
+    margin-bottom: 5%;
+    padding-bottom: 4%;
+}
+footer {
+    width: 100%;
+    background-color: #9a9897;
+    padding: 50px 0;
+    margin-bottom: 0;
+}
+.content{
+    background-color: #a29f9f;
+    width: 80%;
+    margin:auto;
+    padding: 1.5%;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.content > .items{
+    display:flex;
+}
+.first,.second,.third{
+    width:180px;
+    padding:0.5%;
+}
+.instagram-link, .instagram-link, .instagram-link{
+    background-image: url("logos_prev_ui.png");
+    background-position: top center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 18%;
+    margin-top: 8%;
+    text-indent: -9999px;
+}
+.third > ul:nth-child(1){
+    list-style: none;
+    display:flex;
+    padding:0;
+}
+.third > ul:nth-child(1) >li{
+    margin-right: 8%;
+}
+.third{
+    float:right;
+}
+.content > h1:nth-child(1){
+    margin: 1%;
+    padding-bottom: 1%;
+    border-bottom: black 1px solid;
+}
+.everything {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-container {
+    display: flex;
+    gap: 6px;
+    width: 85%;
+    margin:auto;
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+
+.biography {
+    float: none;
+    margin: 0;
+    width: 70%;
+}
+
+.imagesofme {
+    width: 16%;
+    margin-top:1.5%;
+    margin-left: 3%;
+}
+
+.main_image {
+    float: none;
+    width: 100%;
+    height: auto;
+    border-radius: 200px;
+    border: #7c60ff 15px solid;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.15);
+
+}
+.bio-cont-cont{
+    width: 100%;
+    margin:auto;
+    margin-top:0%;
+    background-image: url("bgimg.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.finki_logo, .mitko_logo, .flowers_logo {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 15px auto;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20%;
+}
+.hobbies-wrapper {
+     position: relative;
+     width: 95%;
+    margin:auto;
+     overflow: hidden;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+.hobbies {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.scroll-btn {
+    background-color: #f1ecec;
+    color: #b9b6b4;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 2;
+    margin: 0 10px;
+    border-radius: 10px;
+
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.scroll-btn:hover {
+    background-color: #d5d5d5;
+}
+#interests{
+    margin-top: 4%;
+}
+#interests > h1:nth-child(1){
+    text-indent: 9%;
+}
